@@ -7,3 +7,7 @@ Daily-updated MikroTik DNS-static rules (filling address-list `iran-sites`) buil
 
 Set repo variable `DNS_IP` (Settings → Variables → Actions) to your local DNS server.
 Install on the router: see `mikrotik-updater.rsc`.
+
+## IPv4 list
+`iran-ip.rsc` fills address-list `iran-ipv4` (comment `iran-ip`) with Iran's IPv4 ranges from
+[ipverse/country-ip-blocks](https://github.com/ipverse/country-ip-blocks). Rebuilt daily by the workflow.
