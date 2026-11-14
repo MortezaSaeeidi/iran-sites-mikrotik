@@ -1,5 +1,5 @@
 /ip dns static
-add regexp=".*\\.ir$" type=FWD forward-to=178.22.122.100 address-list=iran-sites comment=iran-domains
+add regexp=".*\\.ir\$" type=FWD forward-to=178.22.122.100 address-list=iran-sites comment=iran-domains
 add name=0-100khodro.com type=FWD match-subdomain=yes forward-to=178.22.122.100 address-list=iran-sites comment=iran-domains
 add name=0-4-4.com type=FWD match-subdomain=yes forward-to=178.22.122.100 address-list=iran-sites comment=iran-domains
 add name=0098charge.com type=FWD match-subdomain=yes forward-to=178.22.122.100 address-list=iran-sites comment=iran-domains

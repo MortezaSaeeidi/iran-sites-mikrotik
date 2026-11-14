@@ -13,7 +13,7 @@ tr -d '\r' < domains.txt | grep -E '^[A-Za-z0-9.-]+$' | sort -u > clean.txt
 # Light: all .ir domains with a single regexp rule (small, safe for any router)
 {
   echo "/ip dns static"
-  echo "add regexp=\".*\\\\.ir\$\" type=FWD forward-to=$DNS_IP address-list=$LIST comment=iran-domains"
+  echo 'add regexp=".*\\.ir\$" type=FWD forward-to='"$DNS_IP"' address-list='"$LIST"' comment=iran-domains'
 } > iran-ir.rsc
 
 # Full: light + every non-.ir domain (tens of thousands of entries; needs lots of RAM)
