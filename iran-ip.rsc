@@ -944,6 +944,7 @@ add list=iran-ipv4 address=195.191.22.0/23 comment=iran-ip
 add list=iran-ipv4 address=195.191.44.0/23 comment=iran-ip
 add list=iran-ipv4 address=195.191.74.0/23 comment=iran-ip
 add list=iran-ipv4 address=195.2.234.0/24 comment=iran-ip
+add list=iran-ipv4 address=195.2.250.0/24 comment=iran-ip
 add list=iran-ipv4 address=195.20.136.0/24 comment=iran-ip
 add list=iran-ipv4 address=195.200.76.0/23 comment=iran-ip
 add list=iran-ipv4 address=195.211.44.0/22 comment=iran-ip
